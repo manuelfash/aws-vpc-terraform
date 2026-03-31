@@ -2,6 +2,7 @@ resource "aws_vpc" "prod" {
   cidr_block = var.testcidr
 }
 
+#hello
 #create subnet1
 
 resource "aws_subnet" "subnet1" {
